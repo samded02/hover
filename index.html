@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .header{
+            height: 60px;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 30px;
+            line-height: 60px;
+            position: fixed;
+            top: 0;
+        }
+        .div1{
+            height: 35px;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            line-height: 35px;
+            position: fixed;
+            top: 60px;
+            border-bottom: 2px  solid rgb(184, 184, 184);
+        }
+        button{
+            height: 30px;
+            margin: 3px;
+            border: none;
+            background-color: rgb(255, 255, 255);
+            transition: .4s;
+            border-radius: 5px;
+        }
+        button:hover{
+            cursor: pointer;
+            margin-top: 0;
+            background-color: rgb(226, 226, 226);
+        }
+        .body1{
+            margin: 20px;
+        }
+        .onbody{
+            height: 80px;
+        }
+        .card{
+            width: 700px;
+            height: 400px;
+        }
+        
+        span{
+            color: #348ac4;
+        }
+        .unbody{
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(61, 61, 61);
+        }
+        .st{
+            padding: 5px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            width: 400px;
+            transition: .5s;
+        }
+        .st:hover{
+            background-color: rgb(226, 226, 226);
+        }
+        p{
+            font-size: 20px;
+        }
+        .antimg{
+            background: url(img/ant.png) center / cover;
+            transition: .5s;
+        }
+        .antimg:hover{
+            background-size: 800px;
+        }
+        .sahimg{
+            background: url(img/sah.png) center / cover;
+            transition: .5s;
+        }
+        .sahimg:hover{
+            background-size: 800px;
+        }
+        .ereimg{
+            background: url(img/ere.png) center / cover;
+            transition: .5s;
+        }
+        .ereimg:hover{
+            background-size: 800px;
+        }
+        .qobimg{
+            background: url(img/qob.png) center / cover;
+            transition: .5s;
+        }
+        .qobimg:hover{
+            background-size: 800px;
+        }
+        .sirimg{
+            background: url(img/sir.png) center / cover;
+            transition: .5s;
+        }
+        .sirimg:hover{
+            background-size: 800px;
+        }
+        .footer{
+            padding: 10px;
+            background-color: gray;
+            height: 50px;
+            display: flex;
+            justify-content: left;
+        }
+        .p{
+            line-height: 30px;
+            border-right: 2px solid rgb(94, 94, 94);
+            width: 100px;
+            height: 30px;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: 50px;
+        }
+        .p2{
+            width: 150px;
+            height: 50px;
+            padding-left: 15px;
+            line-height: 50px;
+            display: flex;
+            justify-content: center;
+            transition: .3s;
+        }
+        .p2:hover{
+            background-color: rgb(97, 97, 97);
+        }
+        .img1{
+            margin: 10px;
+        }
+        .p3{
+            padding-left: 15px;
+            line-height: 50px;
+            width: 75px;
+            right: 0;
+        }
+        .divfin{
+            height: 25px;
+            background-color: gray;
+            font-size: 15px;
+            padding-left: 70px;
+            padding-bottom: 5px;
+        }
+        abbr{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Səhra.com</div>
+    <div class="div1">
+        <a href="#head"><button>Baş hissə</button></a>
+        <a href="#ant"><button>Antarktida</button></a>
+        <a href="#sah"><button>Sahara</button></a>
+        <a href="#ere"><button>Ərəb səhrası</button></a>
+        <a href="#qob"><button>Qobi</button></a>
+        <a href="#sir"><button>Suriya səhrası</button></a>
+    </div>
+    <div class="body1">
+
+        <!-- head -->
+
+        <div id="head" class="onbody"></div>
+        <h1>Dünyanın 10 ən böyük səhrası</h1>
+        <p>Səhralar düzənliyin bütün və ya demək olar ki, bütün ərazini tutduğu, faunasının spesifik olduğu və floranın olmaya biləcəyi təbii zonalardır. Ayaq altında qumun olması və yüksək temperatur isteğe bağlı şərtlərdir. Səhralar təkcə qumlu deyil, həm də buzlu, qayalı, gilli və şorandır.</p>
+
+        <!-- ant -->
+
+        <div id="ant" class="onbody"></div>
+        <h2>1. Antarktida: dünyanın ən böyük səhrası</h2>
+        <div class="card antimg"></div> <br>
+        <div class="unbody">
+            <div class="st"> <span>Yer</span> : Antarktida . </div>
+            <div class="st"> <span>Sahəsi</span> : 13,8milyonkm2 </div>
+            <div class="st"> <span>Orta temperatur</span> : qışda -65 °C, yayda -40 °C </div>
+        </div>
+        <p>Ərazi baxımından ən böyük səhra Antarktidadır. Onun sahəsi 13,8 milyon km2 təşkil edir ki, bu da Kanada və Hindistan ərazisini birləşdirən əraziyə bərabərdir. Bu həm də yer üzündəki ən gözəl cansız yerdir. Və soyuq. Məhz burada 2018-ci ildə rekord aşağı temperatur -98 °C qeydə alınıb .</p>
+        <p>Sərt iqlimi olan səhrada yalnız bir neçə nəfər sağ qala bilir. Buna görə də dünyanın ən böyük səhrası zəif flora və faunaya malikdir. Bitki örtüyü likenlər, mamırlar və yosunlarla təmsil olunur. Heyvanlar arasında bəzi həşəratlar, quşlar yaşayır və sularda balinalar, sperma balinaları, qatil balinalar və pinnipedlər yaşayır.</p>
+
+        <!-- sah -->
+
+        <div id="sah" class="onbody"></div>
+        <h2>2. Sahara: Afrikanın ən böyük səhrası</h2>
+        <div class="card sahimg"></div> <br>
+        <div class="unbody">
+            <div class="st"> <span>Yer</span> : Əlcəzair, Misir, Liviya, Mavritaniya, Mali, Mərakeş, Niger, Sudan, Tunis, Çad və Qərbi Sahara.</div>
+            <div class="st"> <span>Sahəsi</span> : 9,4milyonkm2</div>
+            <div class="st"> <span>Orta temperatur</span> : qışda təxminən +13 °C, yayda təxminən +37 °C.</div>
+        </div>
+        <p>Qitənin ən böyük səhrası ABŞ-ın ölçüsü ilə rəqabət aparır və böyüməyə davam edir. Proqnozlara görə , 2040-cı ilə qədər Çad gölü quruyacaq və Saharanın irəliləməsi artıq məhdudlaşdırılmayacaq.</p>
+        <p>Həmişə belə deyildi. Qədim dövrlərdə Sahara səhrası mülayim rütubətli iqlimə malik bölgə idi. Yerin orbitindəki dəyişikliklər və qütb buz təbəqələrinin daralması yağış və quraqlıq dövrlərinin bir-birini əvəz etməsinə səbəb oldu və tədricən bölgə bildiyimiz kimi oldu. (İqlim dəyişikliyi davam edir. Qar son 42 ildə beşinci dəfədir ki, Saharaya yağır .)</p>
+        <p>Sahara flora və faunası düşündüyümüz qədər monoton olmayan ecazkar dünyanı təmsil edir. Düzdür, insan məskənləri yalnız oazislərdə formalaşır və 2,5 milyon insan səhrada yaşayır ki, bu da Moskvadakından təxminən beş dəfə azdır.</p>
+
+        <!-- ere -->
+
+        <div id="ere" class="onbody"></div>
+        <h2>3. Ərəb səhrası: Bədəvilərin evi</h2>
+        <div class="card ereimg"></div> <br>
+        <div class="unbody">
+            <div class="st"> <span>Yer</span> : Ərəbistan yarımadası.</div>
+            <div class="st"> <span>Sahəsi</span> :2,3 milyonkm2.</div>
+            <div class="st"> <span>Orta temperatur</span> : qışda təxminən +10 °C, yayda təxminən +45 °C.</div>
+        </div>
+        <p>Xarici alimlərə güvənsək, Ərəbistan səhrası dünyanın ən böyük səhraları arasında üçüncü yerdədir. Bunu Rusiyadan kənarda yaşayanlar Ərəbistan yarımadasında yerləşən və ərazi baxımından Əlcəzairlə müqayisə edilə bilən səhra bölgələri kompleksi adlandırırlar.</p>
+        <p>Maraqlıdır ki, Rusiyada Ərəbistan səhrası Misirin təxminən dörddə birini tutan Saharanın şimal-şərq hissəsinə verilən addır. Sonra onun sahəsi xeyli kiçikdir - 222.000 km 2 , bu, məsələn, Böyük Britaniya ilə müqayisə edilə bilər.</p>
+        <p>Ərəbistan yarımadası bədəvilərin vətəni hesab olunur . Təxminən 300.000 il əvvəl burada fil sürüləri və digər heyvanlar gəzir, insanlar yaşayırdı və ərazinin özü də yaşıllıqla əhatə olunmuşdu. Hazırda temperaturun kəskin dəyişməsi səbəbindən flora və fauna çox azdır. Səhrada gündüz +56 °C-dən, gecələr isə -12 °C-yə qədər isti ola bilər. (Bilirsinizmi , niyə səhralar gündüzlər isti, gecələr isə soyuqdur ?)</p>
+
+        <!-- qob -->
+
+        <div id="qob" class="onbody"></div>
+        <h2>4. Qobi: Şambhalaya gedən yol</h2>
+        <div class="card qobimg"></div> <br>
+        <div class="unbody">
+            <div class="st"> <span>Yer</span> : Monqolustan və Çin.</div>
+            <div class="st"> <span>Sahəsi</span> : 1,3milyonkm2.</div>
+            <div class="st"> <span>Orta temperatur</span> : qışda təxminən -24 °C, yayda təxminən +17 °C.</div>
+        </div>
+        <p>Qobi səhrası Perudan bir qədər kiçikdir. Bölgədə temperaturun dəyişməsi də həddindən artıqdır: qışda -40 °C-dən yayda +45 °C-ə qədər. Qum çox deyil və mənzərənin çox hissəsi gil və daşlardan ibarətdir. Sayqa antilopları, dəvələr, ceyranlar, canavar yaşayır, dağlarda isə qobi ayısı var.</p>
+        <p>Rəvayətə görə, məhz Qobidə mistik Şambhala ölkəsinin girişi var, burada bütün canlılara həyat verən mənbə var. Monqolustanda Şambhalaya gedən yolun başladığı güman edilən Xamarin-Khid monastırına turlar var. Amma hələ də heç kim sirli girişi tapa bilməyib</p>
+
+
+
+        <div id="sir" class="onbody"></div>
+        <h2>5. Suriya səhrası: mühüm nəqliyyat mərkəzi</h2>
+        <div class="card sirimg"></div> <br>
+        <div class="unbody">
+            <div class="st"> <span>Yer</span> : Suriya, İordaniya, İraq, Səudiyyə Ərəbistanı.</div>
+            <div class="st"> <span>Sahəsi</span> : 1milyonkm2.</div>
+            <div class="st"> <span>Orta temperatur</span> : qışda təxminən +7 °C, yayda təxminən +29 °C. </div>
+        </div>
+        <p>Ərazisi Misirlə müqayisə oluna bilən Suriya səhrası daha çox qumlu ərazilərə malik çöldür. Səhra Suriyanın təxminən üçdə ikisini əhatə edir. Bölgə qədim zamanlardan Aralıq dənizi ilə Mesopotamiyanı birləşdirib. Yalnız indiki vaxtda dəvə karvanları nadir hala gəlib, ərazi boyu yüksək sürətli magistral yollar çəkilib.</p>
+        <br> <br> <br>
+    </div>
+    <div class="footer">
+        <div class="p">
+            sehra.com
+        </div>
+        <div class="p2">
+            <div class="p3"> 
+                <abbr title="+944 70 247 20 09">WhatsApp</abbr> 
+            </div>
+            <img src="img/wp.png" width="40px" class="img1">
+        </div>
+    </div>
+    <div class="divfin">
+        designed by Ismayil &copy 2024
+    </div>
+</body>
+</html>
